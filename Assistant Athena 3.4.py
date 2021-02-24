@@ -14,7 +14,7 @@ def community() :
 
     query = input("Enter query : ")
 
-    while True:         #예외처리 잘 안되서 더럽게 만듦. 이렇게 하니까 의도한 예외처리가 모두 이루어짐. #Github 사용 프로젝트
+    while True:
         selectpage = input("Select webpage(s) [using number, no spaces or marks] : \n"
                        " 1. dcinside\n 2. google\n 3. youtube\n 4. fmkorea\n 5. naver\n 6. duckduckgo\n -->")
 
